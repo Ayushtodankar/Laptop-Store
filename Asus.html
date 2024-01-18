@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Laptops</title>
+<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="popper.js"></script>
+	<script type="text/javascript" src="bootstrap.js"></script>
+	<link rel="stylesheet" type="text/css" href="Master.css">
+
+	<style type="text/css">
+		*{
+			padding:0px;
+			margin:0px;
+		}
+		h1.a{
+			float:left;
+			padding-top:20px;
+			color:maroon;
+		}
+		#img{
+			float:left;
+		}
+		#img1{
+			width:100%;
+			height:400px;
+		}
+		#img2{
+			width:100%;
+			height:400px;
+		}
+		#img3{
+			width:100%;
+			height:400px;
+		}
+		#header{
+			width:100%;
+			height:50px;
+		}
+		
+	.apple-menu-heading {
+		text-align: center;
+		font-size: 2.4rem;
+		font-weight: 400;
+		color: Red;
+	}
+
+	.apple-menu-container {
+		display: flex;
+		flex-wrap: wrap;
+		padding: 50px 0px 0px 0px;
+	}
+	.apple-menu-container img {
+		display: block;
+		width: 250px;
+		height: 250px;
+		border:50%;
+		object-fit: cover;
+		object-position: center;
+	}
+
+	.apple-menu-item {
+		display: flex;
+		flex: 1 1 600px;
+		justify-content:
+		space-evenly;
+		margin-bottom: 3rem;
+		
+		border:1px solid grey;
+	}
+	.apple-description {
+		margin: auto 1.5rem;
+	}
+	.apple-title {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #444;
+}
+
+.apple-description p {
+  font-size: 1.4rem;
+  color: #555;
+  font-weight: 500;
+}
+
+.apple-description .phone-price {
+  color: #117964;
+  font-weight: 700;
+ }
+ 
+/*******FOOTER Section FOOTER Section********/
+.footer-section {
+	background:black; 
+	padding: 50px 0px 0px 0px;
+	font-family:'Raleway';
+	
+}
+.footer-section h2 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.footer-section h4 {
+	font-size: 30px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-family Norican, sans-serif;
+	color:white;
+}
+
+#name,#email,#comment{
+	background:transparent;
+	color:white;
+	margin:5px;
+}
+.footer-menu{
+	color:silver;
+}
+.Au li{
+	color:silver;
+	list-style:none;
+	text-align:center;
+}
+#button{
+	margin-left:10px;
+}
+.store{
+	list-style:none;
+	text-align:center;
+}
+#soc{
+	text-align:center;
+}
+/*******COPYRIGHT Section COPYRIGHT  Section*********/
+.copyright {
+	border-top: 1px solid lightgrey;
+	margin: 0px;
+	padding: 0px;
+	margin-top: 50px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+.copyright p {
+	margin-top: 10px;
+}
+.copyright ul {
+	list-style: none;
+	float: right;
+	margin-top: 10px;
+}
+.copyright ul li {
+	float: left;
+}
+.copyright ul li a {
+	border-right: 1px solid lightgrey;
+	padding: 0px 10px;
+	text-decoration: none;
+	color: #fff;
+}
+.copyright ul li:last-child a {
+	border-right: none;
+}
+@media screen and (max-width:500px) {
+	.footer-section {
+		text-align: center
+	}
+	
+}
+
+	</style>
+</head>
+<body>
+	<header id=="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-5 col-sm-5 col-md-8 col-lg-8 col-xl-8">
+					<img src="img/logo.png" class="rounded-circle" id="img" alt="Cinque Terre" width="100" height="76"> 
+					<h1 class="a">laptop store</h1>
+				</div>
+
+				<div class="col-7 col-sm-7 col-md-4 col-lg-4 col-xl-4">
+					<form class="form-inline" style="margin-top: 35px; margin-left: 60px;">
+						<div class="input-group">
+							<input class="form-control mr-sm-2" type="text" placeholder="Search Here....">
+							<button class="btn btn-success" type="search">Search</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</header>
+	
+	<nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
+		<div class="container-fluid">
+			
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+	    		<span class="navbar-toggler-icon"></span>
+	  		</button>
+	  		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+				<ul class="navbar-nav mx-auto">
+					<li class="nav-item"><a class="nav-link"  href="Apple.html" style="width: 110px; text-align: center;">Apple</a></li>
+					<li class="nav-item"><a class="nav-link"  href="Lenovo.html" style="width: 110px; text-align: center;">Lenovo</a></li>
+					<li class="nav-item"><a class="nav-link"  href="HP.html" style="width: 110px; text-align: center;">HP</a></li>
+					<li class="nav-item"><a class="nav-link"  href="DELL.html" style="width: 160px; text-align: center;">DELL</a></li>
+					<li class="nav-item"><a class="nav-link"  href="Asus.html" style="width: 160px; text-align: center;">Asus</a></li>
+					<li class="nav-item"><a class="nav-link"  href="Acer.html" style="width: 130px; text-align: center;">Acer</a></li>
+					
+				</ul>
+			</div>	
+		</div>
+	</nav><br>
+
+
+	<section>
+		<div class="container">
+		<div id="demo" class="carousel slide" data-ride="carousel">
+		  	<!-- Indicators -->
+			<ul class="carousel-indicators">
+			    <li data-target="#demo" data-slide-to="0" class="active"></li>
+			    <li data-target="#demo" data-slide-to="1"></li>
+			    <li data-target="#demo" data-slide-to="2"></li>
+			   
+		  	</ul>
+		    <!-- The slideshow -->
+		  	<div class="carousel-inner">
+
+		  		<div class="carousel-item active">
+					<a href="#"><img src="img/asus slide 1.jpeg" class="img-fluid" id="img1"></a>
+			    </div>
+				
+			    <div class="carousel-item">
+			      	<a href="#"><img src="img/asus slide 2.jpg" class="img-fluid" id="img2"></a>
+			    </div>
+				
+			    <div class="carousel-item">
+			      	<a href="#"><img src="img/asus slide 3.jpg" class="img-fluid" id="img3"></a>
+			      	<div class="carousel-caption">
+    					<h1><a href="#" style="color: white;">ASUS</a></h1>
+  					</div>
+			    </div>
+    
+		  	</div>
+		    <!-- Left and right controls -->
+		  	<a class="carousel-control-prev" href="#demo" data-slide="prev">
+		    	<span class="carousel-control-prev-icon"></span>
+		  	</a>
+		  	<a class="carousel-control-next" href="#demo" data-slide="next">
+		    	<span class="carousel-control-next-icon"></span>
+		  	</a>
+		</div><br><br>
+		</section>
+		
+	    <section id="Apple iphone">
+        <h2 class="apple-menu-heading"><mark>-Asus Laptop-</mark></h2>
+        <div class="apple-menu-container container">
+            <div class="apple-menu-item">
+                <div class="apple-img">
+                    <img src="img/asus 1.jpeg" alt="iphone" />
+                </div>
+				
+                <div class="apple-description">
+					<div id="iphone">
+                    <h3 class="apple-titile">ASUS ROG Strix G15 AMD Ryzen 7 Octa Core 6800H - </h3>
+					<h5>(16 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce RTX 3050) G513RC-HN061W Gaming Laptop
+					(15.6 Inch, Eclipse Gray, 2.10 Kg)</h5>
+                    <br>
+                    <p class="phone-price">Price: &#8377;77,990 </p>
+					
+					<del class="origin-price font-note-sm">₹1,17,990</del>
+					<br>
+					<a href="#" class="btn btn-outline-danger" role="button">Buy Now</a>
+                </div>
+                </div>
+            </div>
+		<hr>
+			
+        <div class="apple-menu-container container">
+            <div class="apple-menu-item">
+                <div class="apple-img">
+                    <img src="img/asus 2.webp" alt="iphone" />
+                </div>
+				
+                <div class="apple-description">
+                    <h3 class="apple-titile">ASUS Vivobook 15 Intel Core i3 11th Gen 1115G4 - </h3>
+					<h5>(8 GB/512 GB SSD/Windows 11 Home) X515EA-EJ322WS | X515EA-EJ328WS | X1500EA-EJ3379WS Thin and Light Laptop 
+					(15.6 Inch, Transparent Silver, 1.80 kg, With MS Office)</h5>
+                    <br>
+                    <p class="phone-price">Price: &#8377;29,990</p>
+					<del class="origin-price font-note-sm">₹49,990</del>
+					<br>
+					  <a href="#" class="btn btn-outline-danger" role="button">Buy Now</a>
+                </div>
+            </div>
+			
+		<div class="apple-menu-container container">
+            <div class="apple-menu-item">
+                <div class="apple-img">
+                    <img src="img/asus 3.jpeg" alt="iphone" />
+                </div>
+				
+                <div class="apple-description">
+                    <h3 class="apple-titile">ASUS Vivobook S 14 Intel EVO H-Series Intel Core i5 12th Gen 12500H -</h3>
+					<h5>(16 GB/512 GB SSD/Windows 11 Home) S3402ZA-LY542WS Thin and Light Laptop 
+					(14 inch, Indie Black, 1.50 Kg)</h5>
+                    <br>
+                    <p class="phone-price">Price: &#8377;58,990 </p>
+					<del class="origin-price font-note-sm">₹86,090</del>
+					<br>
+					
+					<a href="#" class="btn btn-outline-danger" role="button">Buy Now</a>
+                </div>
+            </div>
+			
+			<div class="apple-menu-container container">
+            <div class="apple-menu-item">
+                <div class="apple-img">
+                    <img src="img/asus 4.jpeg" alt="iphone" />
+                </div>
+				
+                <div class="apple-description">
+                    <h3 class="apple-titile">ASUS Vivobook 15 Intel Core i5 11th Gen 1135G7 -  </h3>
+					<h5> (8 GB/512 GB SSD/Windows 11 Home) X515EA-EJ522WS Thin and Light Laptop
+					(15.6 Inch, Transparent Silver, 1.80 kg, With MS Office)</h5>
+					<br>
+                    <p class="phone-price">Price: &#8377;39,000 </p>
+					<del class="origin-price font-note-sm">₹69,900</del>
+					<br>
+					<a href="#" class="btn btn-outline-danger" role="button">Buy Now</a>
+                </div>
+            </div>
+			
+			<div class="apple-menu-container container">
+            <div class="apple-menu-item">
+                <div class="apple-img">
+                    <img src="img/asus 5.webp" alt="iphone" />
+                </div>
+				
+                <div class="apple-description">
+                    <h3 class="apple-titile">ASUS ROG Flow X13 (2022) AMD Ryzen 9 Octa Core 6900HS - </h3>
+					<h5>(16 GB/1 TB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce RTX 3050/120 Hz) GV301RC-LJ073WS 2 in 1 Gaming Laptop
+					(13.4 Inch, Off Black, 1.30 kg, With MS Office)</h5>
+					<br>
+                    <p class="phone-price">Price: &#8377;94,900 </p>
+					<del class="origin-price font-note-sm">₹1,49,900</del>
+					<br>
+					  <a href="#" class="btn btn-outline-danger" role="button">Buy Now</a>
+                </div>
+            </div>
+			
+			<div class="apple-menu-container container">
+            <div class="apple-menu-item">
+                <div class="apple-img">
+                    <img src="img/asus 6.jpg" alt="iphone" />
+                </div>
+				
+                <div class="apple-description">
+                    <h3 class="apple-titile">ASUS ROG Zephyrus G14 with 76WHr Battery AMD Ryzen 9 Octa Core 5900HS -  </h3>
+					<h5> (16 GB/1 TB SSD/Windows 10 Home/4 GB Graphics/NVIDIA GeForce RTX 3050/120 Hz/75 TGP) GA401QE-K2166TS Gaming Laptop
+					(14 Inch, Eclipse Gray AniMe Matrix Version, 1.70 Kg, With MS Office)</h5>
+					<br>
+                    <p class="phone-price">Price: &#8377;89,990</p>
+					<del class="origin-price font-note-sm">₹1,80,590</del>
+					<br>
+					  <a href="#" class="btn btn-outline-danger" role="button">Buy Now</a>
+                </div>
+            </div>
+			
+			<div class="apple-menu-container container">
+            <div class="apple-menu-item">
+                <div class="apple-img">
+                    <img src="img/asus 7.jpeg" alt="iphone" />
+                </div>
+			
+                <div class="apple-description">
+                    <h3 class="apple-titile">ASUS TUF Gaming F15 - AI Powered Gaming Intel Core i5 11th Gen 11260H -  </h3>
+					<h5>(8 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce RTX 2050/144 Hz/70 TGP) FX506HF-HN075W Gaming Laptop
+					(15.6 Inch, Graphite Black, 2.30 kg)</h5>
+                    <br>
+                    <p class="phone-price">Price: &#8377;47,399</p>
+					<del class="origin-price font-note-sm">₹75,000</del>
+					<br>
+					
+					<a href="#" class="btn btn-outline-danger" role="button">Buy Now</a>
+                </div>
+            </div>
+			
+			<div class="apple-menu-container container">
+            <div class="apple-menu-item">
+                <div class="apple-img">
+                    <img src="img/asus 8.webp" alt="iphone" />
+                </div>
+				
+                <div class="apple-description">
+                    <h3 class="apple-titile">ASUS TUF Gaming A15 (2023) with 90WHr Battery AMD Ryzen 7 Octa Core 7735HS - </h3>
+					<h5> (16 GB/512 GB SSD/Windows 11 Home/6 GB Graphics/NVIDIA GeForce RTX 4050/144 Hz/140 TGP) FA577NU-LP082W Gaming Laptop 
+					(15.6 Inch, Jaeger Gray, 2.20 Kg)</h5>
+					<br>
+                    <p class="phone-price">Price: &#8377;94,000 </p>
+					<del class="origin-price font-note-sm">₹1,21,000</del>
+					<br>
+					
+					<a href="#" class="btn btn-outline-danger" role="button">Buy Now</a>
+                </div>
+            </div>
+			
+	</section>
+
+<!--------FOOTER Section FOOTER Section FOOTER Section------->
+<div class="container-fluid footer-section" style="">
+  <div class="container">
+   
+    <div class="row">
+      <div class="col-md-3">
+        <h4>Laptop Store</h4>
+        <div class="row">
+          <div class="col-12">
+            <div class="footer-menu">
+             <ul class="store">
+				<li>Welcome  to  Store</li>
+				
+			 </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+	  
+     <div class="col-md-3">
+        <h4>Additional Pages</h4>
+			<ul class="Au">	
+                <li>Apple</li>
+                <li>Lenovo</li>
+                <li>HP</li>
+                <li>DELL</li>
+                <li>Asus</li>
+                <li>Acer</li>
+			</ul>
+     </div>
+
+	<div class="col-md-3">
+        <h4 id="soc">Social</h4>
+			<ul class="Au">	
+                <li>FaceBook</li>
+                <li>Twitter</li>
+                <li>Instagram</li>
+                <li>YouTube</li>
+			</ul>
+    </div>
+	
+<div class="col-md-3">
+        <h4>Contact Us -</h4>
+        <div class="contact-info">
+         <div class="container">
+			
+			<form class="form-inline" action="/action_page.php">
+			
+				<input type="text" class="form-control" id="name" placeholder="Full Name" name="name">
+
+				<input type="email" class="form-control"  id="email" placeholder="Enter email" name="email">
+
+				<div class="form-group">
+					<textarea class="form-control"  id="comment" placeholder="Your Message" rows="5" ></textarea>
+				</div>
+				
+				<a href="#" class="btn btn-warning" id="button" role="button">Send Message</a>
+			</form>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+ <!------------COPYRIGHT Section COPYRIGHT Section ----------->
+  <div class="container ">
+    <div class="row copyright">
+      <div class="col-md-6">
+        <p>@ All Copy Right By Mobile Store Company</p>
+      </div>
+      <div class="col-md-6">
+        <ul> 
+          <li>
+            <a href="#">Service</a>
+          </li>
+          <li>
+            <a href="#">Blog</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+	
+</body>
+</html>
