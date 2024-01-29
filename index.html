@@ -18,7 +18,7 @@
 		}
 		h1.a{
 			float:left;
-			padding-top:20px;
+			padding-top:20px; 
 			color:maroon;
 		}
 		#img{
@@ -40,7 +40,12 @@
 			width:100%;
 			height:50px;
 		}
-		
+		#collapsibleNavbar a:hover{
+			background-color:maroon;
+		}
+		.navbar-nav mx-auto{
+			text-align:center;
+			}
 	.apple-menu-heading {
 		text-align: center;
 		font-size: 2.4rem;
@@ -73,6 +78,7 @@
 	}
 	.apple-description {
 		margin: auto 1.5rem;
+		padding-top:20px;
 	}
 	.apple-title {
   font-size: 1.8rem;
@@ -118,6 +124,7 @@
 }
 .footer-menu{
 	color:silver;
+	
 }
 .Au li{
 	color:silver;
@@ -129,7 +136,7 @@
 }
 #store{
 	list-style:none;
-	text-align:center;
+	
 }
 #soc{
 	text-align:center;
@@ -195,18 +202,17 @@
 	
 	<nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
 		<div class="container-fluid">
-			
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
 	    		<span class="navbar-toggler-icon"></span>
 	  		</button>
 	  		<div class="collapse navbar-collapse" id="collapsibleNavbar">
 				<ul class="navbar-nav mx-auto">
-					<li class="nav-item"><a class="nav-link"  href="index.html" style="width: 110px; text-align: center;">Apple</a></li>
-					<li class="nav-item"><a class="nav-link"  href="Lenovo.html" style="width: 110px; text-align: center;">Lenovo</a></li>
-					<li class="nav-item"><a class="nav-link"  href="HP.html" style="width: 110px; text-align: center;">HP</a></li>
-					<li class="nav-item"><a class="nav-link"  href="DELL.html" style="width: 160px; text-align: center;">DELL</a></li>
-					<li class="nav-item"><a class="nav-link"  href="Asus.html" style="width: 160px; text-align: center;">Asus</a></li>
-					<li class="nav-item"><a class="nav-link"  href="Acer.html" style="width: 130px; text-align: center;">Acer</a></li>
+					<li class="nav-item"><a class="nav-link"  href="index.html" style="width: 150px; text-align: center;">Apple</a></li>
+					<li class="nav-item"><a class="nav-link"  href="Lenovo.html" style="width: 150px; text-align: center;">Lenovo</a></li>
+					<li class="nav-item"><a class="nav-link"  href="HP.html" style="width: 150px; text-align: center;">HP</a></li>
+					<li class="nav-item"><a class="nav-link"  href="DELL.html" style="width: 150px; text-align: center;">DELL</a></li>
+					<li class="nav-item"><a class="nav-link"  href="Asus.html" style="width: 150px; text-align: center;">Asus</a></li>
+					<li class="nav-item"><a class="nav-link"  href="Acer.html" style="width: 150px; text-align: center;">Acer</a></li>
 					
 				</ul>
 			</div>	
@@ -235,10 +241,7 @@
 			    </div>
 				
 			    <div class="carousel-item">
-			      	<a href="#"><img src="img/slide 2.png" class="img-fluid" id="img2"></a>
-			      	<div class="carousel-caption">
-    					<h1><a href="#" style="color: maroon;">MacBook Pro 16</a></h1>
-  					</div>
+			      	<a href="#"><img src="img/slide 2.png" class="img-fluid" id="img2"></a> 
 			    </div>
 				
 				
@@ -262,14 +265,16 @@
 		</div><br><br>
 		</section>
 		
-	    <section id="Apple iphone">
+	    <section id="Apple iphone  ">
         <h2 class="apple-menu-heading"><mark>-Apple MacBook-</mark></h2>
-        <div class="apple-menu-container container">
-            <div class="apple-menu-item">
-                <div class="apple-img">
+      
+	  <div class="apple-menu-container  container">
+			<div class="apple-menu-item">
+			<div class="row ">
+                <div class="flex-column d-flex justify-content-center align-items-center apple-img  col-md-3 col-lg-3 col-xl-3">
                     <img src="img/mac 1.jpg" alt="iphone" />
                 </div>
-				
+				<div class="apple-img  col-md-9 col-lg-9 col-xl-9">
                 <div class="apple-description">
 					<div id="iphone">
                     <h3 class="apple-titile">APPLE 2020 Macbook Air Apple M1 -</h3>
@@ -280,17 +285,23 @@
 					<del class="origin-price font-note-sm">₹99,900</del>
 					<br>
 					<a href="#" class="btn btn-outline-danger" role="button">Buy Now</a>
+					</div>
+				</div>
                 </div>
-                </div>
+			</div>
             </div>
+	</div>
+	
 		<hr>
 			
         <div class="apple-menu-container container">
             <div class="apple-menu-item">
-                <div class="apple-img">
+			<div class="row">
+                <div class="flex-column d-flex justify-content-center align-items-center apple-img col-md-3 col-lg-3 col-xl-3">
                     <img src="img/mac 2.png" alt="iphone" />
                 </div>
 				
+				<div class="apple-img  col-md-9 col-lg-9 col-xl-9">
                 <div class="apple-description">
                     <h3 class="apple-titile">APPLE 2023 Macbook Air Apple M2 - </h3>
 					<h5>(8 GB/256 GB SSD/macOS Ventura) MQKP3HN/A  (15.3 Inch, Space Grey, 1.51 Kg)</h5>
@@ -300,14 +311,19 @@
 					<br>
 					  <a href="#" class="btn btn-outline-danger" role="button">Buy Now</a>
                 </div>
+				</div>
             </div>
+            </div>
+       </div>
 			
 		<div class="apple-menu-container container">
             <div class="apple-menu-item">
-                <div class="apple-img">
+			<div class="row">
+                <div class="flex-column d-flex justify-content-center align-items-center apple-img col-md- col-lg-3 col-xl-3">
                     <img src="img/mac 3.png" alt="iphone" />
                 </div>
 				
+				<div class="apple-img  col-md-9 col-lg-9 col-xl-9">
                 <div class="apple-description">
                     <h3 class="apple-titile">APPLE 2022 MacBook Pro Apple M2 -</h3>
 					<h5>(8 GB/512 GB SSD/Mac OS Monterey) MNEQ3HN/A  (13.3 Inch, Silver, 1.38 Kg)</h5>
@@ -318,14 +334,19 @@
 					
 					<a href="#" class="btn btn-outline-danger" role="button">Buy Now</a>
                 </div>
+				</div>
             </div>
+            </div>
+       </div>
 			
 			<div class="apple-menu-container container">
             <div class="apple-menu-item">
-                <div class="apple-img">
+			<div class="row">
+                <div class="flex-column d-flex justify-content-center align-items-center apple-img col-md-3 col-lg-3 col-xl-3">
                     <img src="img/mac 4.jpeg" alt="iphone" />
                 </div>
 				
+				<div class="apple-img  col-md-9 col-lg-9 col-xl-9">
                 <div class="apple-description">
                     <h3 class="apple-titile">APPLE 2021 Macbook Pro Apple M1 Max - </h3>
 					<h5>32 GB/1 TB SSD/Mac OS Monterey) MK1H3HN/A  (16.2 inch, Silver, 2,2 kg)</h5>
@@ -335,14 +356,19 @@
 					<br>
 					<a href="#" class="btn btn-outline-danger" role="button">Buy Now</a>
                 </div>
+				</div>
             </div>
+            </div>
+		</div>
 			
 			<div class="apple-menu-container container">
             <div class="apple-menu-item">
-                <div class="apple-img">
+			<div class="row">
+                <div class="flex-column d-flex justify-content-center align-items-center apple-img col-md-3 col-lg-3 col-xl-3">
                     <img src="img/mac 5.jpg" alt="iphone" />
                 </div>
 				
+				<div class="apple-img  col-md-9 col-lg-9 col-xl-9">
                 <div class="apple-description">
                     <h3 class="apple-titile">APPLE 2023 MacBook Pro Apple M3 Max - </h3>
 					<h5>(36 GB/1 TB SSD/macOS Sonoma) MRX53HN/A  (14 Inch, Space Black, 1.62 Kg)</h5>
@@ -353,13 +379,17 @@
 					  <a href="#" class="btn btn-outline-danger" role="button">Buy Now</a>
                 </div>
             </div>
+            </div>
+		</div>
 			
 			<div class="apple-menu-container container">
             <div class="apple-menu-item">
-                <div class="apple-img">
+			<div class="row">
+                <div class="flex-column d-flex justify-content-center align-items-center apple-img col-md-3 col-lg-3 col-xl-3">
                     <img src="img/mac 6.jpg" alt="iphone" />
                 </div>
 				
+				<div class="apple-img  col-md-9 col-lg-9 col-xl-9">
                 <div class="apple-description">
                     <h3 class="apple-titile">APPLE 2023 MacBook Pro Apple M3 Pro - </h3>
 					<h5> (18 GB/512 GB SSD/macOS Sonoma) MRW13HN/A  (16 Inch, Space Black, 2.14 Kg)</h5>
@@ -370,13 +400,17 @@
 					  <a href="#" class="btn btn-outline-danger" role="button">Buy Now</a>
                 </div>
             </div>
+            </div>
+		</div>
 			
 			<div class="apple-menu-container container">
             <div class="apple-menu-item">
-                <div class="apple-img">
+			<div class="row">
+                <div class="flex-column d-flex justify-content-center align-items-center apple-img col-md-3 col-lg-3 col-xl-3">
                     <img src="img/mac 7.jpg" alt="iphone" />
                 </div>
 			
+				<div class="apple-img  col-md-9 col-lg-9 col-xl-9">
                 <div class="apple-description">
                     <h3 class="apple-titile">APPLE MacBook Pro Intel Core i5 8th Gen - </h3>
 					<h5>(8 GB/512 GB SSD/Mac OS Mojave) MV972HN/A  (13.3 inch, Space Grey, 1.37 kg)</h5>
@@ -387,14 +421,19 @@
 					
 					<a href="#" class="btn btn-outline-danger" role="button">Buy Now</a>
                 </div>
+                </div>
             </div>
+            </div>
+		</div>
 			
 			<div class="apple-menu-container container">
             <div class="apple-menu-item">
-                <div class="apple-img">
+			<div class="row">
+                <div class="flex-column d-flex justify-content-center align-items-center apple-img col-md-3 col-lg-3 col-xl-3">
                     <img src="img/mac 8.jpg" alt="iphone" />
                 </div>
 				
+				<div class="apple-img  col-md-9 col-lg-9 col-xl-9">
                 <div class="apple-description">
                     <h3 class="apple-titile">APPLE 2023 MacBook Pro Apple M2 Max - </h3>
 					<h5>(32 GB/1 TB SSD/macOS Ventura) MPHG3HN/A  (14 Inch, Space Grey, 1.63 Kg)</h5>
@@ -405,30 +444,29 @@
 					
 					<a href="#" class="btn btn-outline-danger" role="button">Buy Now</a>
                 </div>
+                </div>
             </div>
+            </div>
+		</div>
 			
 	</section>
 	
 <!--------FOOTER Section FOOTER Section FOOTER Section------->
 <div class="container-fluid footer-section" style="">
   <div class="container">
-   
     <div class="row">
-      <div class="col-md-3">
+      <div class="flex-column d-flex align-items-center col-md-3 col-lg-3 col-xl-3">
         <h4>Laptop Store</h4>
-        <div class="row">
-          <div class="col-12">
-            <div class="footer-menu">
+		 <div class="footer-menu">
              <ul id="store">
-				<li>Welcome  to  Store</li>
-				
+				<li>Welcome to Store</li>
+				<li>Welcome to Store</li>
+				<li>Welcome to Store</li>
 			 </ul>
-            </div>
-          </div>
         </div>
       </div>
 	  
-     <div class="col-md-3">
+     <div class="flex-column d-flex align-items-center col-md-3 col-lg-3 col-xl-3">
         <h4>Additional Pages</h4>
 			<ul class="Au">	
                 <li>Apple</li>
@@ -440,7 +478,7 @@
 			</ul>
      </div>
 
-	<div class="col-md-3">
+	<div class="col-md-3 col-lg-3 col-xl-3">
         <h4 id="soc">Social</h4>
 			<ul class="Au">	
                 <li>FaceBook</li>
@@ -450,7 +488,7 @@
 			</ul>
     </div>
 	
-<div class="col-md-3">
+<div class="flex-column d-flex align-items-center col-md-3 col-lg-3 col-xl-3">
         <h4>Contact Us -</h4>
         <div class="contact-info">
          <div class="container">
@@ -475,10 +513,10 @@
  <!------------COPYRIGHT Section COPYRIGHT Section ----------->
   <div class="container ">
     <div class="row copyright">
-      <div class="col-md-6">
+      <div class="col-md-6 col-lg-9 col-xl-9">
         <p>@ All Copy Right By Mobile Store Company</p>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-6 col-lg-3 col-xl-3">
         <ul> 
           <li>
             <a href="#">Service</a>
@@ -493,7 +531,6 @@
       </div>
     </div>
   </div>
-</div>
 
 </body>
 </html>
